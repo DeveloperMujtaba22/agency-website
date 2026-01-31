@@ -7,7 +7,7 @@ import Team from "./components/Team";
 import ContactUs from "./components/ContactUs";
 import { Toaster } from "react-hot-toast";
 import Footer from "./components/Footer";
-import Hero from "./components/hERO.JSX";
+import Hero from "./components/hero";
 
 const App = () => {
   const [theme, setTheme] = useState(localStorage.getItem("theme") || "dark"); // Default to dark for moon theme
